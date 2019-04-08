@@ -11,7 +11,7 @@ import org.apache.spark.sql.functions._
 import java.io._
 
 /** Find the movies with the most ratings. */
-object Q1 {
+object PopularMovies {
   
   /** Load up a Map of movie IDs to movie names. */
   def loadMovieNames() : Map[Int, String] = {
